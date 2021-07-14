@@ -1,0 +1,7 @@
+%parent{
+	color: red
+}
+
+#latihan5{
+ @extend %parent;
+}

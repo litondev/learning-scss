@@ -1,0 +1,7 @@
+@mixin ini_function($parameter1){
+	color: $parameter1
+}
+
+#latihan4 > p{
+	@include ini_function(red);
+}
